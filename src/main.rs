@@ -18,7 +18,7 @@ fn main() {
 
     let mut random_numbers = RandomNumbers { numbers: vec![] };
 
-    for _ in 0..10 {
+    for _ in 0..100 {
         let random_number: Result<u64, String> = gen_rand();
 
         if let Ok(nb_rand) = random_number {
