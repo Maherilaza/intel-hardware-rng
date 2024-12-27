@@ -28,7 +28,7 @@ fn main() {
     }
 
     match save_as_json(&random_numbers, "rand.json") {
-        Ok(_) => info!("Random numbers have been successfully recorded in the file 'rand.json'"),
+        Ok(_) => info!("Save 'rand.json'"),
         Err(e) => error!("Failed to save JSON file: {}", e),
     }
 }
